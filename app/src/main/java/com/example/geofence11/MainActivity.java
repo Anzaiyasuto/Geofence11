@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final int REQ_PERMISSION = 1000;
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "My Geofence";
-    private static final float GEOFENCE_RADIUS = 500.0f;
+    private static final float GEOFENCE_RADIUS = 100.0f;
     private TextView textLat, textLong;
     private GoogleMap map;
     private GoogleApiClient googleApiClient;
